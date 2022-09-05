@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <title>Guilda Skull Knights</title>
+</head>
+<body>
+    
+    <header class="container_cabecalho">
+        <div class="container_imagem">
+            <img src="imagem/imagem_guilda.png" alt="Skull Knights" class="imagem_cabecalho"></div>
+        <div class="container_menu">
+            <nav>
+                <ul class="container_ul">
+                    <li><a href="index.html">Guilda</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container__contato">
+        <form class="formulario_contato">
+
+            <!--Input Nome-->
+            <div class="inp">
+                <label for="nomecompleto">Nome Completo</label>
+                <input type="text" id="nomecompleto" class="input-dados" required placeholder="Seu nome completo aqui">
+            </div>
+
+            <!--Input E-mail-->
+            <div class="inp">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" class="input-dados" required placeholder="usuario@seuprovedor.com.br">
+            </div>
+
+            <!--Input Telefone/Whatsapp-->
+            <div class="inp">
+                <label for="telefone">Telefone / Whats-App</label>
+                <input type="tel" id="telefone" class="input-dados" required placeholder="(**)*****-****">
+            </div>
+
+            <!--Mensagem -->
+            <div class="inp">
+                <label for="mensagem">Digite sua mensagem </label>
+                <textarea name="mensagem" id="mensagem" cols="100" rows="10" required class="input-dados"> </textarea>
+            </div>
+
+            <div class="botao"><button id="botao">Enviar Formulario</button></div>
+        </form>
+        <div class="container__mensagem">
+            <h3 class="mensagem_titulo"><em>Contato</em></h3>
+            <a href="https://discord.gg/qHRd5wUMUN" class="mensagem__discord"><img src="imagem/discord-logo-B02E5FBA04-seeklogo.com.png" alt="Link para discord"></a>
+
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="container_rodape">
+            <img src="imagem/logo_guilda.png" alt="Logo da Guilda" class="imagem_rodape">
+            <p class="copyright">&copy;Cainzo - 2022</p>
+        </div> 
+    </footer>
+</body>
+</html>
